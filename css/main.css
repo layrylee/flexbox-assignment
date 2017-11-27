@@ -1,0 +1,71 @@
+
+body {
+    background: black;
+}
+[class^="box"] {
+    background: white;
+    text-align: center;
+    font-size: 100px;
+}
+.container {
+    display: flex;
+    height: 100vh;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.box1{
+    background-color: #1abc9c;
+    order: 1;
+    width: 100%;
+}
+.box2{
+    background-color: #3498db;
+    order: 2;
+    width: 50%;
+}
+.box3{
+    background-color: #9b59b6;
+    order: 3;
+    width: 50%;
+}
+.box4{
+    background-color: #34495e;
+    order: 4;
+    width: 25%;
+    
+}
+.box5{
+    background-color: #f1c40f;
+    order: 5;
+    width: 25%;
+}
+.box6{
+    background-color: #e67e22;
+    order: 6;
+    width: 25%;
+}
+.box7{
+    background-color: #e74c3c;
+    order: 7;
+    width: 25%;
+}
+.box8{
+    background-color: #bdc3c7;
+    order: 8;
+    width: 33.3%;
+}
+.box9{
+    background-color: #2ecc71;
+    order: 9;
+    width: 33.3%;
+}
+.box10{
+    background-color: #d4a66d;
+    order: 10;
+    width: 33.3%;
+}
+
+
+
+
+
